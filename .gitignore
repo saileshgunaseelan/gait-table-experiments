@@ -1,0 +1,43 @@
+# OS / system
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python compiled files / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs / temp
+*.log
+*.tmp
+.cache/
+
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# Ignore files within data and image directories
+csv-input/*
+csv-output/*
+images/*
+
+# Keep empty directories (if they contain a placeholder file)
+!csv-input/.gitkeep
+!csv-output/.gitkeep
+!images/.gitkeep
